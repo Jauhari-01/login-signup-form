@@ -7,6 +7,12 @@ const lastName = document.getElementById('lastName');
 const firstName = document.getElementById('firstName');
 
 
+
+loginRedirectBtn.addEventListener('click',()=>{
+    location.href='./login';
+})
+
+
 signupBtn.addEventListener('click',(e)=>{
     e.preventDefault();
     if(firstName.value.trim() === '' || 
